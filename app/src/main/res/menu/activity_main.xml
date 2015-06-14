@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto" >
+
+    <item android:id="@+id/menu_tales"
+        android:title="@string/activity_tales"/>
+    <item android:id="@+id/menu_cosplay"
+        android:title="@string/menu_cosplay">
+    </item>
+    <item android:id="@+id/menu_login"
+        yourapp:showAsAction="ifRoom"
+        android:title="@string/menu_login">
+    </item>
+</menu>

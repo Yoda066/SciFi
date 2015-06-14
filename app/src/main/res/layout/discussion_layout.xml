@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:minHeight="100dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"     
+    >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/CommentAuthor"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp" 
+        android:paddingRight="10dp"              
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/CommentAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#006991" />
+
+    <TextView
+        android:id="@+id/CommentText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/CommentAuthor"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/CommentAuthor"
+        android:layout_marginRight="16dp"
+        android:minHeight="40dp"
+        android:text="Small TextSmall TextSmall TextSmall TextSmall TextSmall TextSmall TextSmall TextSmall TextSmall TextSmall TextSmall TextSmall TextSmall TextSmall TextSmall TextSmall TextSmall TextSmall TextSmall TextSmall TextSmall Text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>
